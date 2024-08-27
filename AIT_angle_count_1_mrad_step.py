@@ -9,7 +9,6 @@ from scipy.optimize import curve_fit
 import sympy as sym
 import numpy as np
 import matplotlib as mpl
-from numpy.polynomial import Polynomial
 import matplotlib.pyplot as plt
 plt.figure(figsize=(12,12), dpi=100)
 mpl.rcParams['text.usetex'] = True
