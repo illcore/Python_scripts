@@ -38,7 +38,7 @@ handle4 = mpl.lines.Line2D([], [], c='Red',lw=20)
 handle5 = mpl.lines.Line2D([], [], c='Blue', lw=20)
 handle6 = mpl.lines.Line2D([], [], c='Yellow', lw=20)
 handle7 = mpl.lines.Line2D([], [], c='Orange', lw=20)
-labels=[r'\bf Background - Rectangle', r'\bf Square', r'\bf Disc', r'\bf Circle', r'\bf Line']
+labels=[r'\bf Background - Square', r'\bf Square', r'\bf Disc', r'\bf Circle', r'\bf Line']
 plt.legend(handles=[handle3, handle4, handle5, handle6, handle7], labels=labels, loc="upper left", bbox_to_anchor=(1, 0.65), frameon=False, shadow=False)
 plt.savefig("Drawing.pdf", bbox_inches='tight')
 plt.show()
