@@ -37,10 +37,13 @@ plt.yscale('log')
 #Axes limits
 plt.xlim(0.0, 450.01)
 plt.ylim(10.0, 10001)
+#Axes title
+#plt.title(r'$\rm (a)$ $\rm 80\mbox{-}bin~D\mbox{$\neg$}CRY$', y=1.025)
 #Axes labels
 plt.xlabel(r"\bf Scattering angle [mrad]", fontsize=27)
 plt.ylabel(r"\bf Counts", fontsize=27)
 #No legend frame and shadow
+#plt.title(r'$\rm 80\mbox{-}bin~D\mbox{$\neg$}CRY$', y=0.925, x=0.25)
 handle3 = mpl.lines.Line2D([], [], c='Yellow')
 handle4 = mpl.lines.Line2D([], [], c='MediumBlue')
 handle5 = mpl.lines.Line2D([], [], c='Orange')
