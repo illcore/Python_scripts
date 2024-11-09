@@ -5,7 +5,6 @@ data5 = pd.read_csv('Concrete_steel_strontium.txt',sep='\s+',header=None)
 data6 = pd.read_csv('Concrete_steel_caesium.txt',sep='\s+',header=None)
 data7 = pd.read_csv('Concrete_steel_uranium.txt',sep='\s+',header=None)
 data8 = pd.read_csv('Concrete_steel_plutonium.txt',sep='\s+',header=None)
-from scipy.optimize import curve_fit
 import sympy as sym
 import numpy as np
 import matplotlib as mpl
